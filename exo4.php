@@ -27,3 +27,4 @@ if($phraseInversee == $phraseMinSansEspace) {
 } else {
     echo "Cette phrase n'est pas un palindrome";
 }
+?>
