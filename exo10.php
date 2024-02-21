@@ -61,4 +61,10 @@ $reste = $reste % $piece2;
 // Calcul du nombre de pièces de 1 : 
 $nbPiece1 = intdiv($reste, $piece1);
 
-echo $nbBillet10, $nbBillet5, $nbPiece2, $nbPiece1;
+// Affichage finale :
+echo "Montant à payer : $prix<br>";
+echo "Montant versé : $versement<br>";
+echo "Montant rendu : $rendu<br>";
+echo "*********************************************<br>";
+echo "Rendue de monnaie :<br>";
+echo "$nbBillet10 billets de 10 € - $nbBillet5 billets de 5 € - $nbPiece2 pièce de 2 € - $nbPiece1 pièce de 1 €";
