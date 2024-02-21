@@ -15,4 +15,41 @@ Table de 8 :
 
  <h2>Résultat</h2>
 
+ <p>
+    Boucle while :
+ </p>
+
  <?php
+
+// Chiffre à multiplié : 
+$chiffre = 8;
+
+// Multiplicateur : 
+$m = 0;
+
+// Multiplication :
+$multiplication = $chiffre * $m;
+
+// Création d'une boucle while :
+while ($m < 10) {
+    $multiplication = $chiffre * $m;
+    echo " $m x $chiffre = $multiplication<br>";
+    $m++;
+}
+?>
+
+<p>
+    Boucle do while : 
+</p>
+
+<?php
+
+// Création boucle do while : 
+
+// Réénitialisation du multplicateur : 
+$m = 0;
+do {
+    $multiplication = $chiffre * $m;
+    echo " $m x $chiffre = $multiplication<br>";
+    $m++;
+} while ($m < 10);
