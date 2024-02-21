@@ -16,7 +16,7 @@ Table de 8 :
  <h2>Résultat</h2>
 
  <p>
-    Boucle while :
+    Boucle <strong>while</strong> :
  </p>
 
  <?php
@@ -39,7 +39,7 @@ while ($m < 10) {
 ?>
 
 <p>
-    Boucle do while : 
+    Boucle do <strong>while</strong> : 
 </p>
 
 <?php
