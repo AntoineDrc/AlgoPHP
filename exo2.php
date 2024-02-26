@@ -14,6 +14,7 @@ $maPhrase = "«Notre formation DL commence aujourd'hui»";
 // Calcul du nombre de mots : 
 $nbMots = str_word_count($maPhrase);
 
+// Affichage du nombre de mots pour ma phrase :
 echo "La phrase $maPhrase contient $nbMots mots."
 ?>
 

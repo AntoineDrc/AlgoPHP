@@ -21,7 +21,7 @@ $phraseMinSansEspace = str_replace(' ', '',$phraseMin);
 // Inversion de la phrase :
 $phraseInversee = strrev($phraseMinSansEspace);
 
-// Affichage si c'est un palindrome :
+// Affichage SI c'est un palindrome :
 if($phraseInversee == $phraseMinSansEspace) {
     echo "La phrase $phraseInitiale est un palindrome";
 } else {

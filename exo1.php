@@ -9,7 +9,7 @@ Ecrire un algorithme permettant de compter le nombre de caractères contenus dan
 
 <?php
 
-// déclaration variable pour ma phrase :
+// Déclaration variable pour ma phrase :
 $maPhrase = "Notre formation DL commence aujourd'hui";
 
 // Calcul du nombre de caratères : 
@@ -18,6 +18,9 @@ $nbCaractères = strlen($maPhrase)
 
 <h2>Résultat</h2>
 <?php
+
+// Affichage du nombre de caractères pour ma phrase :
 echo "La phrase « $maPhrase » contient $nbCaractères caractères<br>";
+
 ?>
 
