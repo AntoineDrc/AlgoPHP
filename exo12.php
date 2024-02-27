@@ -51,3 +51,32 @@ foreach ($prenomLangue as $prenom => $lang) {
 
     }
 }
+
+// Saut de ligne : 
+echo "<br>" . "<br>";
+
+?>
+<h2>Variante</h2>
+
+<p>
+    Trier d'abord le tableau par ordre alphabétique du prénom
+</p>
+
+<?php
+// Variante de tableau en triant par ordre alpahbétique : 
+$prenomLangue = ["Mickaël" => "FRA", "Virgile" => "ESP", "Marie-Claire" => "ENG",];
+ksort($prenomLangue);
+
+foreach ($prenomLangue as $prenom => $lang) {
+
+switch($lang){
+    case "FRA";
+        echo"Bonjour " . $prenom . "<br>";
+        break;
+    case "ESP";
+        echo"Hola " . $prenom . "<br>";
+        break;
+    case "ENG";
+        echo"Hello " . $prenom . "<br>";
+}
+}
