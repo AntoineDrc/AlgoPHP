@@ -39,7 +39,7 @@ while ($m < 10) {
 ?>
 
 <p>
-    Boucle do <strong>while</strong> : 
+    Boucle <strong>do while</strong> : 
 </p>
 
 <?php
