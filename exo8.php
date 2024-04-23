@@ -1,8 +1,8 @@
 <h1>Exercice 8</h1>
 
 <p>
-Ecrire un algorithme qui renvoie la table de multiplication d'un nombre passé en paramètre sous la 
-forme :
+    Ecrire un algorithme qui renvoie la table de multiplication d'un nombre passé en paramètre sous la
+    forme :
 </p>
 
 <!-- 
@@ -13,13 +13,13 @@ Table de 8 :
 3 x 8 = 24 …
  -->
 
- <h2>Résultat</h2>
+<h2>Résultat</h2>
 
- <p>
+<p>
     Boucle <strong>while</strong> :
- </p>
+</p>
 
- <?php
+<?php
 
 // Chiffre à multiplié : 
 $chiffre = 8;
@@ -39,7 +39,7 @@ while ($m < 10) {
 ?>
 
 <p>
-    Boucle <strong>do while</strong> : 
+    Boucle <strong>do while</strong> :
 </p>
 
 <?php

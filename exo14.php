@@ -1,7 +1,7 @@
 <h1>Exercice 14</h1>
 
 <p>
-Calculer l'âge exact d'une personne à partir de sa date de naissance (en années, mois, jours).
+    Calculer l'âge exact d'une personne à partir de sa date de naissance (en années, mois, jours).
 </p>
 
 <!-- 
@@ -10,9 +10,9 @@ Calculer l'âge exact d'une personne à partir de sa date de naissance (en anné
 Age de la personne : 33 ans 4 mois 4 jours
  -->
 
- <h2>Résultat</h2>
+<h2>Résultat</h2>
 
- <?php
+<?php
 
 // Variable à la date du 21/05/2018 :
 $date1 = new DateTime("2018-05-21");
